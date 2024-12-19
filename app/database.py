@@ -3,7 +3,6 @@ from pydantic import BaseModel
 from sqlalchemy import create_engine, Column, Integer, String, Boolean,Date
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker, Session
-from .main import Base
 # DEFINE MODEL
 
 # Data
